@@ -46,6 +46,8 @@ Asegúrese de tener los siguientes requisitos instalados en tu sistema:
     pip install -r requirements.txt
 4.- ```bash
     uvicorn main:app --reload (Inicia el servidor de desarrollo)
-
+5.- ```bash
+    pip install PyMuPDF
+    (Opcional, ya que al no aparecer en requirements, puede presentar fallas)
 
 
