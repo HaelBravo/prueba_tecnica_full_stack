@@ -1,0 +1,82 @@
+.padre{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.image{
+    width: 100%;
+    margin: 13%;
+}
+
+.input-text{
+    width: 80%;
+    margin-bottom: 30px;
+    margin: center;
+    border-radius: 20px;
+    border-color: #e4e5e740;
+    height: 45px;
+    background-color: #cccccc40;
+    border: none;
+    padding-left: 25px;
+}
+.input-text:focus{
+    outline: none ;
+    box-shadow: none;
+
+}
+
+.button-login{
+    background-color: rgb(37, 185, 211);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    height: 45px;
+    
+}
+.button-login:hover {
+    background-color: rgb(27, 165, 191); /* Color de fondo al pasar el cursor */
+  }
+
+.text-login {
+    color: slategray;
+    font-size: 24px;                      
+    font-weight: 450;    
+    margin-top: 40px;
+    margin-bottom: 40px;    
+    
+                   
+}
+.button-switch{
+    background-color: rgb(153, 169, 172);
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 35px;
+    height: 35px;
+}
+
+.custom-transparent-input{
+    background: transparent;
+    border: none;
+    color: #000;
+    width: 100%;
+    padding: 8px;
+
+}
+
+.custom-transparent-input:focus{
+    outline: none;
+    box-shadow: none;
+    
+}
+
+
+
